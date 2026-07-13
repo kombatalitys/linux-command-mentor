@@ -26,9 +26,11 @@ def explain_command():
         
         config = types.GenerateContentConfig(
             system_instruction=(
-                "You are a friendly Linux mentor. The user will give you a command. "
-                "Explain what it means in plain, simple English in 2 sentences max. "
-                "If it's a dangerous command like rm -rf, warn them strongly."
+                "You are an interactive chatbot."
+"the user will talk to you about linux"
+"they'll talk to you about how intimidating the terminal looks, why they don't switch from windows, or why they are afraid of terminal commands."
+"additionally, they will talk to you about what commands mean so they can switch from windows."
+"do not be rigid and strict. be conversational and keep track of what users say"
             ),
             temperature=0.3
         )
