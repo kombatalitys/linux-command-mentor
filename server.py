@@ -97,7 +97,7 @@ def chat():
         
         # D. Run Gemini API Call using modern google-genai structure
         response = ai_client.models.generate_content(
-            model='gemini-1.5-flash',  # Or 'gemini-1.5-pro' depending on your preference
+            model='gemini-2.5-flash',  # Or 'gemini-1.5-pro' depending on your preference
             contents=prompt_with_context,
         )
         ai_response = response.text
